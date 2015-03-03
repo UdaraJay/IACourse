@@ -1,0 +1,20 @@
+AddNode 0: 3 8 11 
+AddNode 3: 0 7
+AddNode 8: 0 2 10 12
+AddNode 11: 0 12
+AddNode 10: 2 8
+AddNode 2: 8 10
+AddNode 12: 8 11
+AddNode 7: 3 1 9 4
+AddNode 1: 7 4
+AddNode 9: 7 6 4
+AddNode 4: 1 7 9 
+AddNode 6: 9
+
+LoadAlgorithm MulticastingTree 
+
+RootNode 0
+
+RoundTime 1000
+
+Debug 1

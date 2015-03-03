@@ -1,0 +1,2 @@
+javac -classpath .:simulator-2.jar $1
+java -classpath .:simulator-2.jar Simulator $2
